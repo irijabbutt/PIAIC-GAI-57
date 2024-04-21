@@ -30,18 +30,18 @@ console.log("div:", div);
 // let exp = x ** "y" //error
 let exp = x ** y;
 console.log("exp:", exp);
-// Assignment op (=)
+// --*Assignment op (=)
 let n = 5;
 n += 5; //n=n+5 ==>10
 console.log("assignment op:", n);
-// Increment (++) /Decrement (--) op
+// --*Increment (++) /Decrement (--) op
 n++; // n=11   (value change and update new value in n)
 console.log("Increment:", n);
 n + 2; // value change but not updated in n
 console.log("Increment:", n + 2);
 n--; // n=10
 console.log("Decrement:", n);
-// Comparison op
+// --*Comparison op
 n = 10;
 // ==
 n == 10; //true   (compare values only of same data types)
