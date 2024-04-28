@@ -32,4 +32,7 @@ fruits.splice(1, 0, "mango", "strawberry") //0 element delete at index 1, add ne
 console.log("after splice 1,0,mango,strawberry:");
 console.log(fruits);
 
-
+const juices = [1, 2, 5, 14, 7, 2]
+let gig=[3,9,2,1,8,7]
+let temp=juices.concat(gig)   //concat used to join two arrays
+console.log(temp);
