@@ -9,4 +9,4 @@ function sumOfElements(arr: number[])
     return console.log(`Sum of elements of array [${arr}] is:`,sum);
     
 }
-sumOfElements([1,4,-2,8,34,-26,19,12])
+sumOfElements([1,4,-2,8,34,26,19,12])
